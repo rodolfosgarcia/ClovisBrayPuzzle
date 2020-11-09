@@ -1,7 +1,7 @@
 #!/usr/bin/env pythonpy.exe
 import urllib.request
 
-urlText = 'https://www.bungie.net/pubassets/blarg/fragment_v2_10f1a86a-5c44-4976-bf70-4ff716d44135.gif'
+urlText = 'https://www.bungie.net/pubassets/blarg/fragment_v2_03cf1423-e8ef-4112-abe1-323f2ecf7f2e.gif'
 gifData = urllib.request.urlopen(urlText, )
 for i, line in enumerate(gifData):
     print (i, line)
